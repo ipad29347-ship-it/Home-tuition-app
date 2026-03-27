@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import Image from 'next/image';
+import logoImg from '../public/icons/logo.png';
 
 export default function Hero() {
   return (
@@ -61,7 +62,7 @@ export default function Hero() {
             <div className="relative aspect-square w-full">
               {/* Using a placeholder image that looks like a cartoon/illustration */}
               <Image
-                src="/icons/logo.png"
+                src={logoImg}
                 alt="Happy children learning"
                 fill
                 className="object-contain rounded-[3rem] cartoony-card rotate-3 hover:rotate-0 transition-transform duration-500 bg-white"

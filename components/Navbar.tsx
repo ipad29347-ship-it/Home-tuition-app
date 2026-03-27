@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import Image from 'next/image';
+import logoImg from '../public/icons/logo.png';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +34,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group">
           <div className="group-hover:rotate-12 transition-transform duration-300">
-            <Image src="/icons/logo.png" alt="Happy Minds Logo" width={40} height={40} className="rounded-xl shadow-md" />
+            <Image src={logoImg} alt="Happy Minds Logo" width={40} height={40} className="rounded-xl shadow-md" />
           </div>
           <span className="font-poppins font-bold text-xl text-slate-800 tracking-tight">
             Happy Minds

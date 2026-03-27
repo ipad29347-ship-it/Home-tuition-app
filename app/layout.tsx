@@ -43,8 +43,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} ${nunito.variable} scroll-smooth`}>
       <head>
-        <link rel="icon" href="/icons/icon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/icons/icon.png" />
+        <link rel="icon" href="/icons/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/icons/logo.png" />
       </head>
       <body suppressHydrationWarning className="font-nunito bg-slate-50 text-slate-900 antialiased selection:bg-red-200 selection:text-red-900 flex flex-col min-h-screen">
         {children}

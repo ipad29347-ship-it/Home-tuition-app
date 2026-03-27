@@ -2,7 +2,7 @@ const CACHE_NAME = 'happy-minds-cache-v1';
 const urlsToCache = [
   '/',
   '/manifest.json',
-  '/icons/icon.png'
+  '/icons/logo.png'
 ];
 
 self.addEventListener('install', (event) => {

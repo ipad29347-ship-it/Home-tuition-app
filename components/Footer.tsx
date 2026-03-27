@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import logoImg from '../public/icons/logo.png';
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
           
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <Image src="/icons/logo.png" alt="Happy Minds Logo" width={32} height={32} className="rounded-lg" />
+              <Image src={logoImg} alt="Happy Minds Logo" width={32} height={32} className="rounded-lg" />
               <span className="font-poppins font-bold text-xl text-white tracking-tight">
                 Happy Minds
               </span>

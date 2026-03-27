@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-blob: blob 7s infinite;
+  
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Cartoony Theme Utilities */
+.cartoony-card {
+  border: 4px solid #0f172a;
+  box-shadow: 8px 8px 0px 0px #0f172a;
+  transition: all 0.2s ease-in-out;
+}
+.cartoony-card:hover {
+  box-shadow: 4px 4px 0px 0px #0f172a;
+  transform: translate(4px, 4px);
+}
+
+.cartoony-btn {
+  border: 3px solid #0f172a;
+  box-shadow: 4px 4px 0px 0px #0f172a;
+  transition: all 0.2s ease-in-out;
+}
+.cartoony-btn:hover, .cartoony-btn:active {
+  box-shadow: 0px 0px 0px 0px #0f172a;
+  transform: translate(4px, 4px);
+}
+
+.cartoony-input {
+  border: 3px solid #0f172a;
+  box-shadow: 4px 4px 0px 0px #0f172a;
+  transition: all 0.2s ease-in-out;
+}
+.cartoony-input:focus {
+  box-shadow: 0px 0px 0px 0px #0f172a;
+  transform: translate(4px, 4px);
+  outline: none;
+}

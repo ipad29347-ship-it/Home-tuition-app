@@ -1,0 +1,16 @@
+{
+  "name": "Happy Minds Tuition",
+  "short_name": "Happy Minds",
+  "description": "Building Strong Foundations for Bright Futures. Tuition for Grades 1-5.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#ef4444",
+  "icons": [
+    {
+      "src": "/icons/icon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ]
+}

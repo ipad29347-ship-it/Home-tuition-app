@@ -9,7 +9,7 @@ export default function RegistrationForm() {
   const [errorMessage, setErrorMessage] = useState('');
 
   // INSTRUCTIONS: Replace this URL with your actual Formspree endpoint
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/your-form-id';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mbdplvap';
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -64,7 +64,7 @@ export default function RegistrationForm() {
               Register Your Interest
             </h2>
             <p className="text-slate-600">
-              Fill out the form below and we'll get back to you to discuss your child's needs.
+              Fill out the form below and we&apos;ll get back to you to discuss your child&apos;s needs.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export default function RegistrationForm() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="parentName" className="block text-sm font-semibold text-slate-700 mb-2">Parent's Name *</label>
+                  <label htmlFor="parentName" className="block text-sm font-semibold text-slate-700 mb-2">Parent&apos;s Name *</label>
                   <input
                     type="text"
                     id="parentName"
@@ -103,7 +103,7 @@ export default function RegistrationForm() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="childName" className="block text-sm font-semibold text-slate-700 mb-2">Child's Name *</label>
+                  <label htmlFor="childName" className="block text-sm font-semibold text-slate-700 mb-2">Child&apos;s Name *</label>
                   <input
                     type="text"
                     id="childName"
